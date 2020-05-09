@@ -29,7 +29,9 @@ This section is about code writing rules.
 - Private function should be used in public functions
 ### Template functions
 Naming pattern: "on" + (button Label, input name, ...) + (event type)
+
 Example: onSubmitClick, onUserNameKeyEnter, ...
 ### Service functions
 Naming pattern: (request type) + (requested model or models) + ("List" or "ById")
+
 Example: getRetailerListWithProductList, postProductById, ...
