@@ -148,3 +148,8 @@ Example: onSubmitClick, onUserNameKeyEnter, ...
 Naming pattern: (request type) + (requested model or models) + ("List" or "ById")
 
 Example: getRetailerListWithProductList, postProductById, ...
+# Angular CLI commands
+```
+ng g module "module name" --flat --routing=true
+ng g component "component name" --module="module name"
+```
